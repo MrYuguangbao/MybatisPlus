@@ -12,6 +12,6 @@ import org.springframework.stereotype.Repository;
  * @BelongsPackage: com.alibaobao.mybatisplus.mapper
  * @CreateTime: 2021-01-02 11:08:25
  */
-@Repository
+@Repository("myUserMapper")
 public interface UserMapper extends BaseMapper<User> {
 }
